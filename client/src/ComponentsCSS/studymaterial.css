@@ -1,0 +1,55 @@
+.studyMatNotes{
+    margin-top: 70px;
+}
+
+.mainseachforNotes{
+    display: flex;
+    margin: 10px ;
+    padding: 20px ;
+    background-color: rgb(187, 243, 255);
+}
+
+
+.seachforNotes input{
+    margin-right: 30px;
+    padding-left: 10px;
+}
+
+#searchboxstudy{
+    margin-right: 20px;
+    margin-left: 50px;
+    width: 470px;
+    border-radius:  10px;
+   height: 40px;
+}
+
+.seachforNotes button{
+    margin-right: 20px;
+   width: 160px;background-color: #e3ffff;
+    border-radius:  10px;
+    border-radius: 10px ;
+    border: 2px solid cyan;
+   height: 40px;
+}
+
+
+#studysearchbutton{
+    margin-right: 20px;
+    width: 160px;background-color: #eaffff;
+     border-radius:  10px;
+     border-radius: 10px ;
+     border: 2px solid cyan;
+    height: 40px;
+}
+
+
+#booksizeadjust{
+    width:50 px !important;
+    font-size: 50px;
+    
+}
+
+h2{
+    text-align: center;
+}
+

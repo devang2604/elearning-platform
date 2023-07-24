@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap');
+form{
+    margin-top:15px ;
+    
+}
+
+
+.loginForm{
+
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    width: 550px;
+    border: 5px solid rgb(146, 202, 199);
+    height: 500px;
+    background-color:  rgb(205, 239, 237) !important;
+    border-radius: 15px;
+}
+
+.loginForm input{
+    margin: 25px;
+
+    width: 350px;
+    padding: 5px 3px;
+    display: block;
+}
+
+.loginForm button{
+    margin: 10px 10px 10px 10px;
+    
+}
+
+#signinbutton{
+    background-color: rgb(0, 255, 76);
+    border-radius: 15px;
+    height: 60px;
+    font-size: large;
+    font-weight: 80;
+    width: 100px;
+    
+}
+
+#resetbutton{
+    font-size: large;
+    font-weight: 80;
+    
+    background-color: rgb(255, 0, 0);
+    border-radius: 15px;
+    height: 60px;
+    width: 100px;
+    position: center;
+}
+
+.loginForm a{
+    display: inline-block;
+    text-align: right;
+    display: block;
+}
+.loginForm h3{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.loginForm label{
+    font-size: large;
+    font-weight: bold;
+
+}
+
+#divofloginform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px ;
+}
+
+/* ************************************************************************************************ */
+/* css of contentHome page */
+
+.HomePageData{
+   padding-top: 150px;
+   justify-content: left;
+   align-items: left;
+   padding-left: 10px;
+   min-height: 80vh;
+}
+
+/* ************************************************************************************************* */
+/* css of createaccount */
+
+.createForm{
+    display: flex;
+    width: 560px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    margin-right: 0px !important;
+    border: 5px solid rgb(146, 202, 199);
+    background-color:  rgb(205, 239, 237);
+    height: 600px;
+}
+
+.loginFormheight{
+  height: 800px;
+  margin-bottom: 40px ;
+}
+
+.ElementCreate input{
+    display: block;
+    width: 200px;
+}
+
+.createForm input{
+    width: 50px !important;
+    display: inline-block;
+    margin: 10px 0px;
+    padding : 5px 4px;
+    border-radius: 10px;
+    border: 1px solid rgb(192, 192, 192) ;
+}
+#submitcreate{
+    background-color: rgb(70, 231, 70);
+    border-color: rgb(8, 183, 8);
+    border-radius: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+#resetbutton{
+    padding-right: 10px;
+    background-color: rgb(251, 44, 44);
+    border-color: rgb(209, 13, 13);
+    border-radius: 10px;
+}
+
+
+.bi-x-square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ************************************************************************ */
+/* Content button css  */
+.ButtonContent{
+    display: flex;
+
+
+}
+
+.Contentbutton{
+    padding: 10px;
+    margin: 20px;
+    width: 50%;
+    border-top-right-radius : 10px ;
+    border-bottom-left-radius : 10px ;
+    background-color: rgb(201, 255, 255);
+}
+
+
+
+.imgthumbnail{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding-left: 10px;
+}
+
+.contentHome{
+    min-height: 400px;
+    display: flex;
+    padding-top: 60px !important;
+}
+
+
+/* ********************Mainhome page content************************* */
+
+.mainMycoursecss{
+    min-height: 100vh;
+    padding-top: 130px;
+    
+}
+
+#Mainclassidcourse{
+    border: 5px solid rgb(120, 239, 255) ;
+}
+
+/* ****************** MainMycourse ************************** */
+
+.MainMycourse{
+    background-color: #e1ffff;
+}
+
+/* ******************** Profile Page Css ********************* */
+
+.profilePic{
+    border: 5px solid cyan;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#personPhoto{
+    height:220px;
+    border: 5px solid rgb(156, 251, 251);
+    padding: 10px;
+    margin: 10px;
+}
+
+/* **********************  Dropdown css **************************** */
+
+
+
+
+.DropDownCss{
+    width: 400px;
+    padding: 10px;
+    margin: 2px;
+    background-color:  #e1ffff;
+    color: black;
+    font-family: 'Roboto Slab', serif !important; 
+    border: 5px solid #092222;
+    
+}
+
+.DropDownCss:hover {
+    background-color: rgb(164, 209, 237);
+  
+    cursor: pointer;
+    color: black;
+}
+.DropDownCss:visited{
+    background-color: unset;
+}
+
+.dropdownmenu{
+  
+   
+    padding-left: 80px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.dropdownmenu2{
+    width: 50%;
+    background-color: rgb(178, 241, 246);
+} 
+
+/* ************************ kids *********************** */
+
+.videoplay{
+ width: 400px;
+}

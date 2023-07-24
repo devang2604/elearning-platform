@@ -8,19 +8,19 @@ export const registerController = async (req, res) => {
     const { name, email, createPassword, password, phone } = req.body;
     //validations
     if (!name) {
-      return res.send({ error: "Name is required" });
+      return res.send({ message : "Name is required" });
     }
     if (!email) {
-      return res.send({ error: "Email is required" });
+      return res.send({ message : "Email is required" });
     }
     if (!createPassword) {
-      return res.send({ error: "Creating Password is required" });
+      return res.send({ message : "Creating Password is required" });
     }
     if (!password) {
-      return res.send({ error: "Conforming Password is required" });
+      return res.send({ message : "Conforming Password is required" });
     }
     if (!phone) {
-      return res.send({ error: "Phone is required" });
+      return res.send({ message : "Phone is required" });
     }
     if (createPassword != password) {
       return res.send({ error: "Confirm Password mismatch" })
@@ -30,7 +30,7 @@ export const registerController = async (req, res) => {
     //existing user
     if (existingUser) {
       return res.status(200).send({
-        success: true,
+        success: false,
         message: "Already Register please login",
       });
     }

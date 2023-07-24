@@ -1,0 +1,8 @@
+footer font :  font-family: 'Roboto Slab', serif;
+import myCoursecss from './../ComponentsCSS/homepage.css'
+<div className='mainMycoursecss'>
+
+
+  background-image: url(./Images/Learning.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
