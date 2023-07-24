@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/elearning-platform/static/css/main.a78d88cc.css",
+    "main.js": "/elearning-platform/static/js/main.4384c010.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/elearning-platform/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/Logo.png": "/elearning-platform/static/media/Logo.0009a3a8495da58fdeb9.png",
+    "index.html": "/elearning-platform/index.html",
+    "static/media/person.svg": "/elearning-platform/static/media/person.b87141ee2ebc69697c380acaecf5f5e5.svg",
+    "main.a78d88cc.css.map": "/elearning-platform/static/css/main.a78d88cc.css.map",
+    "main.4384c010.js.map": "/elearning-platform/static/js/main.4384c010.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/elearning-platform/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a78d88cc.css",
+    "static/js/main.4384c010.js"
+  ]
+}
